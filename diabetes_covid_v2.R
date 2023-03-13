@@ -416,7 +416,7 @@ cox_covid_figure3<-ggsurvplot(cox_covid3, data = covid_km, size = 1,palette = "g
                               xlim = c(0,30),ylim= c(0.7,1.0),break.y.by= c(0.05),break.x.by= c(5),pval.coord = c(0, 0.80))
 
 cox_covid_figure3<-cox_covid_figure3 + theme_survminer(base_size = 10,
-                                                       base_family = "Arial",
+                                                       base_family = "sans",
                                                        font.x = c(10, "plain" ), 
                                                        font.y = c(10, "plain"),
                                                        font.caption = c(10, "plain"), 
@@ -449,7 +449,7 @@ cox_covid_figure4<-ggsurvplot(cox_covid4, data = covid_km,
                               cumevents = F)
 
 cox_covid_figure4 <-cox_covid_figure4 + theme_survminer(base_size = 10,
-                                    base_family = "Arial",
+                                    base_family = "sans",
                                     font.x = c(10, "plain" ), 
                                     font.y = c(10, "plain"),
                                     font.caption = c(10, "plain"), 
@@ -482,7 +482,7 @@ cox_covid_figure5<-ggsurvplot(cox_covid5, data = covid_km,
                               cumevents = F)
 
 cox_covid_figure5 <-cox_covid_figure5 + theme_survminer(base_size = 10,
-                                                        base_family = "Arial",
+                                                        base_family = "sans",
                                                         font.x = c(10, "plain" ), 
                                                         font.y = c(10, "plain"),
                                                         font.caption = c(10, "plain"), 
@@ -514,7 +514,7 @@ cox_covid_figure6<-ggsurvplot(cox_covid6, data = covid_km,
                               cumevents = F)
 
 cox_covid_figure6 <-cox_covid_figure6 + theme_survminer(base_size = 10,
-                                                        base_family = "Arial",
+                                                        base_family = "sans",
                                                         font.x = c(10, "plain" ), 
                                                         font.y = c(10, "plain"),
                                                         font.caption = c(10, "plain", parse=TRUE), 
@@ -596,7 +596,7 @@ cox_score_cat<-ggsurvplot(cox_score, data = covid_train, size = 1,palette = "bw"
                                                              pval.coord = c(0, 0.80))
 cox_score_cat
 cox_score1<-cox_score_cat + theme_survminer(base_size = 10,
-                                                base_family = "Arial",
+                                                base_family = "sans",
                                                 font.x = c(10, "plain" ), 
                                                 font.y = c(10, "plain"),
                                                 font.caption = c(10, "plain"), 
@@ -618,7 +618,7 @@ cox_score_cat2<-ggsurvplot(cox_score2, data = covid_test, size = 1,palette = "bw
                           pval.coord = c(0, 0.80))
 
 cox_score3<-cox_score_cat2 + theme_survminer(base_size = 10,
-                                            base_family = "Arial",
+                                            base_family = "sans",
                                             font.x = c(10, "plain" ), 
                                             font.y = c(10, "plain"),
                                             font.caption = c(10, "plain"), 

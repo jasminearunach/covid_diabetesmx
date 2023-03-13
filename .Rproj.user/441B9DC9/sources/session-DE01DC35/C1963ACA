@@ -1,0 +1,26 @@
+{
+    "id": "C1963ACA",
+    "path": "~/Documents/GitHub/covid_diabetesmx/diabetes_covid_v2.R",
+    "project_path": "diabetes_covid_v2.R",
+    "type": "r_source",
+    "hash": "551784789",
+    "contents": "",
+    "dirty": false,
+    "created": 1678645983385.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "564,16",
+        "scrollLine": "678"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1678683350,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1678683350456,
+    "read_only": false,
+    "read_only_alternatives": []
+}
